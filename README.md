@@ -148,6 +148,20 @@ chmod permissions filename
 ```
 chown user:group filename
 ```
+- sudo -i or sudo su - are equivalent commands. These commands start a new shell as the superuser (root) with root's environment variables and settings.
+```
+sudo -i: This command starts an interactive shell session as the root user, loading root's environment variables.
+sudo su -: This is an alternative syntax to achieve the same result—switching to the root user with a login shell.
+```
+- sudo su allows you to switch to another user account. It invokes the su command with superuser privileges granted by sudo, enabling you to log in as another user.
+```
+It's generally followed by - <username> to switch to a specific user account,
+for example, sudo su - john to switch to user john's environment.
+```
+- sudo -u <username> executes a command as a specified user.
+```
+sudo -u <username> command: This executes command as the user <username>.
+```
 
 ## Processes
 
