@@ -41,7 +41,7 @@ pwd
 ```
 cp source_file destination_file
 ```
-- **mv: **Move or rename files and directories.
+- **mv:** Move or rename files and directories.
 ```
 mv old_file new_file
 mv file /path/to/directory
@@ -73,9 +73,25 @@ grep pattern filename
 - **sed:** Stream editor for text transformation.
 ```
 sed 's/old/new/' filename
-
+```
 - **awk:** Pattern scanning and processing language.
 ```
 awk '/pattern/ { print $1 }' filename
 ```
+
+## System Information
+
+- **uname:** Print system information.
+```
+uname -a
+```
+**df:** Display disk space usage.
+```
+df -h
+```
+**free:** Display amount of free and used memory.
+```
+free -h
+```
+
 
