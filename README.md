@@ -136,3 +136,15 @@ sudo apt-get install package_name
 ```
 sudo yum install package_name
 ```
+
+
+## Permissions
+
+- **chmod:** Change file permissions.
+```
+chmod permissions filename
+```
+- **chown:** Change file owner and group.
+```
+chown user:group filename
+```
