@@ -137,6 +137,10 @@ sudo apt-get install package_name
 sudo yum install package_name
 ```
 
+- the command to  download a file from internet or over a network:
+```
+wget URL
+curl URL -o outputfile
 
 ## Permissions
 
