@@ -155,11 +155,11 @@ chown user:group filename
 ```
 ps aux
 ```
--**kill:** Send a signal to a process.
+- **kill:** Send a signal to a process.
 ```
 kill PID
 ```
--**top / htop:** Display Linux tasks.
+- **top / htop:** Display Linux tasks.
 
 ```
 top
@@ -169,15 +169,15 @@ htop
 
 ## Miscellaneous
 
--**date:** Print or set the system date and time.
+- **date:** Print or set the system date and time.
 ```
 date
 ```
-**history:** Command history.
+- **history:** Command history.
 ```
 history
 ```
-**tar:** Archive files.
+- **tar:** Archive files.
 ```
 tar -cvf archive_name.tar directory_to_compress
 ```
