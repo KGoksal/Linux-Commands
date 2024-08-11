@@ -110,3 +110,29 @@ who
 passwd
 ```
 
+##Network
+
+- **ping:** Check the network connection to a server.
+```
+ping server_name
+```
+- **ifconfig / ip:** Display and configure network interfaces.
+```
+ifconfig
+ip addr show
+```
+- **wget:** Non-interactive network downloader.
+```
+wget URL
+```
+
+##  Package Management
+
+- **apt-get:** Command-line package handling utility (Debian-based).
+```
+sudo apt-get install package_name
+```
+- **yum:** Package manager for RPM-based distributions.
+```
+sudo yum install package_name
+```
