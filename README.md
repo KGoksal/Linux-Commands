@@ -18,18 +18,18 @@ This repository contains a comprehensive list of fundamental Linux commands that
 
 ## Navigation
 
-- `cd`: Change directory.
+- **cd:** Change directory.
   ```bash
   cd path/to/directory
 
-  `ls`: List directory contents.
+- **ls:** List directory contents.
 ```
 ls
 ls -l
 ls -a
 ```
 
-- pwd: Print working directory.
+- **pwd:** Print working directory.
 
 ```
 pwd
