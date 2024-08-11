@@ -177,7 +177,10 @@ date
 ```
 history
 ```
-**tar: **Archive files.
+**tar:** Archive files.
 ```
 tar -cvf archive_name.tar directory_to_compress
 ```
+
+
+## 
