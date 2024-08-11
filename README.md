@@ -29,7 +29,7 @@ ls -l
 ls -a
 ```
 
-pwd: Print working directory.
+- pwd: Print working directory.
 
 ```
 pwd
@@ -37,28 +37,45 @@ pwd
 
 ## File Management
 
-- cp: Copy files and directories.
+- **cp:** Copy files and directories.
 ```
 cp source_file destination_file
 ```
-- mv: Move or rename files and directories.
+- **mv: **Move or rename files and directories.
 ```
 mv old_file new_file
 mv file /path/to/directory
 ```
-- rm: Remove files and directories.
+- **rm:** Remove files and directories.
 ```
 rm file
 rm -r directory
 ```
-- mkdir: Create directories.
+- **mkdir:** Create directories.
 ```
 mkdir directory_name
 ```
-- rmdir: Remove empty directories.
+- **rmdir:** Remove empty directories.
 ```
 rmdir directory_name
 ```
 
+## Text Processing
 
+- **cat:** Concatenate and display files.
+```
+cat filename
+
+- **grep:** Search for patterns in files.
+```
+grep pattern filename
+
+- **sed:** Stream editor for text transformation.
+```
+sed 's/old/new/' filename
+
+- **awk:** Pattern scanning and processing language.
+```
+awk '/pattern/ { print $1 }' filename
+```
 
