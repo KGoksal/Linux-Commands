@@ -37,6 +37,28 @@ pwd
 
 ## File Management
 
+- cp: Copy files and directories.
+```
+cp source_file destination_file
+```
+- mv: Move or rename files and directories.
+```
+mv old_file new_file
+mv file /path/to/directory
+```
+- rm: Remove files and directories.
+```
+rm file
+rm -r directory
+```
+- mkdir: Create directories.
+```
+mkdir directory_name
+```
+- rmdir: Remove empty directories.
+```
+rmdir directory_name
+```
 
 
 
