@@ -148,3 +148,20 @@ chmod permissions filename
 ```
 chown user:group filename
 ```
+
+## Processes
+
+- **ps:** Report a snapshot of current processes.
+```
+ps aux
+```
+-**kill:** Send a signal to a process.
+```
+kill PID
+```
+-**top / htop:** Display Linux tasks.
+
+```
+top
+htop
+```
