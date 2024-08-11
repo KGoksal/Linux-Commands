@@ -165,3 +165,19 @@ kill PID
 top
 htop
 ```
+
+
+## Miscellaneous
+
+-**date:** Print or set the system date and time.
+```
+date
+```
+**history:** Command history.
+```
+history
+```
+**tar: **Archive files.
+```
+tar -cvf archive_name.tar directory_to_compress
+```
