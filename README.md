@@ -95,3 +95,18 @@ free -h
 ```
 
 
+## User Management
+
+- **whoami:** Print the current user.
+```
+whoami
+```
+- **who:** Display who is logged in.
+```
+who
+```
+- **passwd:** Change user password.
+```
+passwd
+```
+
