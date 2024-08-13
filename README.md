@@ -254,5 +254,24 @@ find $log_dir/*.log.gz -mtime +7 -exec rm {} \;
 ```
 
 
+### 3. System Maintenance Script
+This script performs routine maintenance tasks such as updating packages and cleaning up temporary files.
 
+```
+#!/bin/bash
+
+# Update package lists and upgrade packages
+apt-get update
+apt-get upgrade -y
+
+# Clean up unused packages and old kernels
+apt-get autoremove -y
+apt-get autoclean
+
+# Clear temporary files
+rm -rf /tmp/*
+
+# Optionally, reboot the system if required
+# reboot
+```
 
