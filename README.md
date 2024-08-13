@@ -66,7 +66,7 @@ rmdir directory_name
 - **cat:** Concatenate and display files.
 ```
 cat filename
-
+```
 - **grep:** Search for patterns in files.
 ```
 grep pattern filename
