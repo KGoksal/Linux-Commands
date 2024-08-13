@@ -142,6 +142,7 @@ sudo yum install package_name
 ```
 wget URL
 curl URL -o outputfile
+```
 
 ## Permissions
 
@@ -167,7 +168,7 @@ for example, sudo su - john to switch to user john's environment.
 
 ```
 sudo -u <username> command: This executes command as the user <username>.
-
+```
 
 ## Processes
 
