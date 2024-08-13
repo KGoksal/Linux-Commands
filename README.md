@@ -70,6 +70,7 @@ cat filename
 - **grep:** Search for patterns in files.
 ```
 grep pattern filename
+```
 
 - **sed:** Stream editor for text transformation.
 ```
