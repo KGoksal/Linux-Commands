@@ -207,3 +207,28 @@ tar -cvf archive_name.tar directory_to_compress
 
 
 ## Sample Shell Scripts
+
+### 1. Backup Script
+This script creates a backup of specified directories and compresses them into a tarball with a timestamp.
+```
+#!/bin/bash
+
+# Directories to backup
+backup_dirs="/var/www /etc /home/user"
+
+# Backup destination directory
+backup_dest="/backup"
+
+# Create backup directory if it doesn't exist
+mkdir -p "$backup_dest"
+
+# Backup filename with timestamp
+backup_file="backup-$(date +%Y%m%d%H%M%S).tar.gz"
+
+# Perform backup
+tar -czvf "$backup_dest/$backup_file" $backup_dirs
+
+# Optionally, clean up old backups (e.g., keep last 7 days)
+find "$backup_dest" -name "backup-*" -mtime +7 -exec rm {} \;
+```
+
