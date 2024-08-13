@@ -232,3 +232,27 @@ tar -czvf "$backup_dest/$backup_file" $backup_dirs
 find "$backup_dest" -name "backup-*" -mtime +7 -exec rm {} \;
 ```
 
+### 2. Log Rotation Script
+This script rotates logs and archives older log files to save disk space.
+
+```
+#!/bin/bash
+
+# Log directory
+log_dir="/var/log/app"
+
+# Maximum number of log files to keep
+max_logs=5
+
+# Rotate and compress logs
+for logfile in $(ls -t $log_dir/*.log | tail -n +$max_logs); do
+    gzip -9 "$logfile"
+done
+
+# Remove compressed logs older than 7 days
+find $log_dir/*.log.gz -mtime +7 -exec rm {} \;
+```
+
+
+
+
