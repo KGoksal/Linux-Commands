@@ -14,6 +14,7 @@ This repository contains a comprehensive list of fundamental Linux commands that
 - [Permissions](#permissions)
 - [Processes](#processes)
 - [Miscellaneous](#miscellaneous)
+- [Sample Shell Scripts](#Sample-Shell-Scripts)
 
 
 ## Navigation
@@ -196,9 +197,10 @@ date
 history
 ```
 - **tar:** Archive files.
+
 ```
 tar -cvf archive_name.tar directory_to_compress
 ```
 
 
-## 
+## Sample Shell Scripts
