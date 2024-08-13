@@ -164,9 +164,10 @@ It's generally followed by - <username> to switch to a specific user account,
 for example, sudo su - john to switch to user john's environment.
 ```
 - sudo -u <username> executes a command as a specified user.
+
 ```
 sudo -u <username> command: This executes command as the user <username>.
-```
+
 
 ## Processes
 
