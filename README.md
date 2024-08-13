@@ -275,3 +275,30 @@ rm -rf /tmp/*
 # reboot
 ```
 
+### 4. Service Monitoring Script
+This script checks the status of critical services and restarts them if they are not running.
+
+```
+#!/bin/bash
+
+# List of services to monitor
+services=("apache2" "mysql")
+
+# Check status and restart if necessary
+for service in "${services[@]}"; do
+    systemctl is-active --quiet $service
+    if [ $? -ne 0 ]; then
+        systemctl start $service
+        echo "Service $service restarted at $(date)" >> /var/log/service-monitor.log
+    fi
+done
+```
+
+### Tips for Using Shell Scripts in Production:
+- **Permissions:** Ensure scripts have appropriate permissions (chmod +x script.sh) and are run with appropriate privileges.
+- **Testing:** Test scripts in a non-production environment before deploying them to production.
+- **Logging:** Implement logging to track script executions and outputs.
+- **Error Handling:** Include error checking and handling to manage unexpected conditions gracefully.
+- **Security:** Avoid hardcoding sensitive information (e.g., passwords) directly into scripts; use environment variables or secure vaults.
+
+
