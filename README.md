@@ -3,7 +3,6 @@
 This repository contains a comprehensive list of fundamental Linux commands that are commonly used in Bash, SH, and other UNIX shells.
 
 ## Table of Contents
-
 - [Navigation](#navigation)
 - [File Management](#file-management)
 - [Text Processing](#text-processing)
