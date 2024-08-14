@@ -17,7 +17,6 @@ This repository contains a comprehensive list of fundamental Linux commands that
 
 
 ## Navigation
-
 - **cd:** Change directory.
   ```bash
   cd path/to/directory
