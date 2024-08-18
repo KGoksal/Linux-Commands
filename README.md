@@ -278,7 +278,6 @@ This script checks the status of critical services and restarts them if they are
 
 ```
 #!/bin/bash
-
 # List of services to monitor
 services=("apache2" "mysql")
 
