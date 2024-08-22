@@ -297,4 +297,3 @@ done
 - **Error Handling:** Include error checking and handling to manage unexpected conditions gracefully.
 - **Security:** Avoid hardcoding sensitive information (e.g., passwords) directly into scripts; use environment variables or secure vaults.
 
-
