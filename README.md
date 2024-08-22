@@ -250,7 +250,6 @@ done
 find $log_dir/*.log.gz -mtime +7 -exec rm {} \;
 ```
 
-
 ### 3. System Maintenance Script
 This script performs routine maintenance tasks such as updating packages and cleaning up temporary files.
 
