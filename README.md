@@ -203,7 +203,6 @@ history
 tar -cvf archive_name.tar directory_to_compress
 ```
 
-
 ## Sample Shell Scripts
 
 ### 1. Backup Script
